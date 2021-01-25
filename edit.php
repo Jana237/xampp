@@ -40,6 +40,8 @@ $edit_db = mysqli_query($connection, $edit);
     <form method="post">
       <div>
         <label>Title</label>
+        table {
+        
         <input type="text" name="title" value=" <?php echo $str ['title'] ;?>" required><p></p>
       </div>
       <div>
