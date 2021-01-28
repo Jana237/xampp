@@ -34,15 +34,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
   <body>
     <div class="container-fluid">
-    <h1>Регистрация на курсы</h1>
+    <h1>Регистрация на курсы</h1><p></p>
     <form class="row g-3" method="post">
-      <div class="col-md-6">
+      <div class="p-3 border bg-light col-3">
+      	<div class="col-md-12">
           <label  class="form-label">Name</label>
           <input type="text" name="name" class="form-control"  placeholder="Введите имя" required>
       </div>
       <div class="col-md-12">
           <label  class="form-label">Email</label>
-          <input type="email" name="email"class="form-control" placeholder="эл.почта" required>
+          <input type="email" name="email" class="form-control" placeholder="эл.почта" required>
       </div>
       
       <div class="col-md-12">
@@ -55,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           <input type="text" name="phone" class="form-control" placeholder="(+372) 0000 0000" required>
       </div>
            
-      <div class="col-12">
+      <div class="col-12"><p></p>
            <button type="submit" name="submit" class="btn btn-primary">Регистрация</button>
       </div>
     </form>

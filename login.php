@@ -53,8 +53,9 @@
     			<input type="password" class="form-control" name="pass">
   			</div>
 
-			<button type="submit" class="btn btn-primary">Войти</button>
-		</div>
+			<button type="submit" class="btn btn-primary" style="margin-right: 50px"> Войти</button>
+			<a href="registration.php" >Регистрация</a>
+		</div>		
 		</form>
 
 	</body>
